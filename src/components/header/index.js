@@ -6,7 +6,9 @@ export default function Header() {
     <div className="Header">
       <div>Cool Todo App</div>
       <div>
-        <a href="https://github.com/kaushiki101">About</a>
+        <a target="blank" href="https://github.com/kaushiki101">
+          About
+        </a>
       </div>
     </div>
   );
