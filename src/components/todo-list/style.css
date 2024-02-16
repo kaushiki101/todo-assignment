@@ -1,0 +1,15 @@
+.TodoListContainer {
+  height: 100%;
+  overflow: scroll;
+  padding: 1rem;
+  flex: 1;
+}
+
+.task {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.task:hover {
+  background: #efefef;
+}

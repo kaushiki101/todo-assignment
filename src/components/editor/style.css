@@ -1,0 +1,44 @@
+.Editor {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-left: 2px solid #efefef;
+  padding-left: 1rem;
+}
+
+.button {
+  padding: 8px 16px;
+  background: #ff4c4c;
+  color: white;
+  border-radius: 8px;
+  margin: 1rem 0rem;
+  cursor: pointer;
+}
+
+.button.warn {
+  background: #0b8a00;
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  border-top-color: #333;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
